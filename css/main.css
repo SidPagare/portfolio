@@ -5,7 +5,8 @@ font-family: "DM Sans", sans-serif;
 font-size: 16px;;
 }
 .hero-section{
-min-height: 80vh;
+    margin-top: 4rem;
+min-height: 100vh;
 }
 .title{
 font-family: "DM Sans", sans-serif;
@@ -16,6 +17,12 @@ line-height: 1.5;
 letter-spacing: 0.005em;
 color: #000000;
 }
+
+.glassy{
+    backdrop-filter: blur(11px);
+    background-color: #ffffff94;
+}
+
 .img-cont{
     -webkit-box-shadow: 0px 11px 54px -22px rgba(222,222,222,1);
     -moz-box-shadow: 0px 11px 54px -22px rgba(222,222,222,1);
