@@ -13,8 +13,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script>
-            if(window.innerWidth < 900) {
-        window.location.href = "./not-available.html";
+           checkWidth()
+     window.addEventListener("resize", checkWidth);
+     function checkWidth(){
+        if(window.innerWidth < 992) {
+    window.location.href = "../not-available.html";
+    }
     }
         </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
