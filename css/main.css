@@ -60,3 +60,9 @@ color: #000000;
     font-size: 1.2rem;
     font-weight: bold;;
 }
+.bg{
+    background-color: rgba(243, 243, 243,0.7);
+}
+.primary-bg{
+    background-color: #10A8AD;
+}
